@@ -1,14 +1,13 @@
 <template>
   <div id="app">
-    <div>
-      <router-link to="/Movie">Movie</router-link>
-      <router-link to="/Mine">Mine</router-link>
-      <router-link to="/Cinema">Cinema</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
-
+<script>
+export default {
+  
+}
+</script>
 <style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

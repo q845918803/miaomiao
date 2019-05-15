@@ -9,14 +9,10 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
-   
     Movie,
-   
- 
+
     Cinema,
-    
-  
-  
+
     Mine,
   
   ]
